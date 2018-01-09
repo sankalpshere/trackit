@@ -20,7 +20,7 @@ class App extends Component {
           <input type="text" defaultValue="Enter XPath" className="App-input-xpath"/>
         </p>
         <p>
-          <input type="button" value="Track!"/>
+          <input type="button" value="Track!" onClick={() => alert('To be tracked!')} className="App-input-button"/>
         </p>
       </div>
     );
